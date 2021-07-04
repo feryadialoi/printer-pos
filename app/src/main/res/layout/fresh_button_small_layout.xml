@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    android:id="@+id/cv_fresh_button_small"
+    app:cardCornerRadius="8dp"
+    android:layout_width="wrap_content"
+    android:layout_height="34dp"
+    android:backgroundTint="@color/fresh_blue"
+    android:clickable="true"
+    android:focusable="true"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:paddingHorizontal="16dp"
+    app:contentPaddingLeft="16dp"
+    app:contentPaddingRight="16dp"
+    tools:ignore="UnusedAttribute">
+
+    <TextView
+        android:id="@+id/tv_fresh_button_small_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="btn"
+        android:textColor="@color/white"
+        android:textSize="14sp"
+        android:textStyle="bold" />
+
+</com.google.android.material.card.MaterialCardView>

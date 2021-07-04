@@ -1,0 +1,17 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.SahabatGemarikanPOSMobile" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/sahabat_gemarikan_blue</item>
+        <item name="colorPrimaryVariant">@color/sahabat_gemarikan_blue_variant</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/sahabat_gemarikan_blue</item>
+        <item name="colorSecondaryVariant">@color/sahabat_gemarikan_blue_variant</item>
+        <item name="colorOnSecondary">@color/white</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
+        <!-- Customize your theme here. -->
+        <item name="android:homeAsUpIndicator">@drawable/ic_back_arrow_black</item>
+    </style>
+</resources>

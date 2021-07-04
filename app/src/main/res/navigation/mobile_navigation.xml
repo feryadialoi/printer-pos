@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_create_sale">
+
+    <action
+        android:id="@+id/action_create_sale"
+        app:destination="@id/nav_create_sale" />
+
+    <fragment
+        android:id="@+id/nav_create_sale"
+        android:name="id.turbin.sahabatgemarikan.sahabatgemarikanposmobile.ProductFragment"
+        android:label="@string/menu_create_sale"
+        tools:layout="@layout/fragment_create_sale" />
+
+</navigation>

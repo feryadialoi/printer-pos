@@ -1,0 +1,61 @@
+<resources>
+    <string name="app_name">Sahabat Gemarikan POS Mobile</string>
+    <string name="login_email">Email</string>
+    <string name="login_password">Password</string>
+    <string name="btn_login_login">Masuk</string>
+    <string name="product_item_add">Tambah</string>
+    <string name="sale_activity_title">Daftar Belanja</string>
+    <string name="bt_sale_create_sale">Simpan Penjualan</string>
+    <string name="sale_detail_activity_title">Detail Penjualan</string>
+    <string name="login_activity_forget_password">Lupa Password</string>
+
+    <string name="sale_history_activity_title">Riwayat Penjualan</string>
+    <string name="sale_history_activity_print_receipt">Cetak Struk</string>
+    <string name="navigation_drawer_open">navigation drawer open</string>
+    <string name="navigation_drawer_close">navigation drawer close</string>
+    <string name="title_activity_main2">MainActivity</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="change_password_activity_old_password">Password Lama</string>
+    <string name="change_password_activity_new_password">Password Baru</string>
+    <string name="change_password_activity_confirm_new_password">Konfirmasi Password Baru</string>
+    <string name="save">Simpan</string>
+
+    <!-- Activity Profile-->
+    <string name="profile_activity_tv_name">Nama</string>
+    <string name="profile_activity_tv_email">Email</string>
+    <string name="profile_activity_tv_phone_number">Nomor Telepon</string>
+    <string name="profile_activity_tv_address">Alamat</string>
+    <string name="profile_activity_tv_outlet_code">Kode Outlet</string>
+    <string name="profile_activity_change_password">Ubah Password</string>
+    <string name="profile_activity_title">Profil</string>
+
+    <!-- Menu-->
+    <string name="menu_logout">Logout</string>
+    <string name="menu_profile">Profil</string>
+    <string name="menu_setting">Pengaturan</string>
+    <string name="menu_create_sale">Buat Penjualan</string>
+    <string name="menu_sales_history">Riwayat Penjualan</string>
+
+
+    <string name="tv_activity_sale_detail_total">Total</string>
+    <string name="setting_activity_title">Pengaturan</string>
+    <string name="tv_activity_setting_printer_label">Informasi printer tersimpan</string>
+    <string name="bt_activity_setting_select_print">pilih printer</string>
+    <string name="bt_activity_setting_test_print">tes print</string>
+
+    <!-- nav header main -->
+    <string name="nav_header_name">John Doe</string>
+    <string name="nav_header_outlet_code">1264646dJDFSJ</string>
+    <string name="sahabat_gemarikan">Sahabat Gemarikan</string>
+
+</resources>

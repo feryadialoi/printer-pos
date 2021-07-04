@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+<!--    <group android:checkableBehavior="single">-->
+<!--        <item-->
+<!--            android:id="@+id/nav_create_sale"-->
+<!--            android:icon="@drawable/ic_menu_create_sale"-->
+<!--            android:title="@string/menu_create_sale" />-->
+<!--        <item-->
+<!--            android:id="@+id/nav_sales_history"-->
+<!--            android:icon="@drawable/ic_menu_sales_history"-->
+<!--            android:title="@string/menu_sales_history" />-->
+<!--        <item-->
+<!--            android:id="@+id/nav_setting"-->
+<!--            android:icon="@drawable/ic_menu_setting"-->
+<!--            android:title="@string/menu_setting" />-->
+<!--        <item-->
+<!--            android:id="@+id/nav_logout"-->
+<!--            android:icon="@drawable/ic_menu_logout"-->
+<!--            android:title="@string/menu_logout" />-->
+<!--    </group>-->
+</menu>

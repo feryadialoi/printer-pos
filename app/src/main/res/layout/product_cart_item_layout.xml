@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:padding="8dp"
+    android:clickable="true"
+    android:background="?android:attr/selectableItemBackground"
+    android:focusable="true">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="12dp"
+        app:cardElevation="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/iv_product_cart_item_image"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            tools:ignore="ContentDescription" />
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/cl_product_cart_item_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/cl_product_cart_item_counter"
+        app:layout_constraintStart_toEndOf="@+id/cardView"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginLeft="80dp"
+        android:layout_marginRight="120dp"
+        android:layout_marginEnd="120dp"
+        android:layout_marginStart="80dp">
+
+        <TextView
+            android:textStyle="bold"
+            android:id="@+id/tv_product_cart_item_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="product name"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/tv_product_cart_item_price"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="product price"
+            android:textColor="@color/sahabat_gemarikan_orange"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tv_product_cart_item_name" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <LinearLayout
+        android:gravity="center"
+        android:id="@+id/ll_product_cart_item_counter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btn_product_cart_item_decrement"
+            style="?attr/materialButtonOutlinedStyle"
+            android:layout_width="28dp"
+            android:layout_height="40dp"
+            android:gravity="center"
+            android:minWidth="0dp"
+            android:minHeight="0dp"
+            android:padding="0dp"
+            android:text="-"
+            app:cornerRadius="20dp"
+            app:strokeColor="@color/blue_gray_300" />
+
+        <EditText
+            android:layout_marginHorizontal="16dp"
+            android:focusable="false"
+            android:focusableInTouchMode="true"
+            android:id="@+id/et_product_cart_item_quantity"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:gravity="center_horizontal"
+            android:text="0"
+            android:textAlignment="center" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btn_product_cart_item_increment"
+            style="?attr/materialButtonOutlinedStyle"
+            android:layout_width="28dp"
+            android:layout_height="40dp"
+            android:gravity="center"
+            android:minWidth="0dp"
+            android:minHeight="0dp"
+            android:padding="0dp"
+            android:text="+"
+            app:cornerRadius="20dp"
+            app:strokeColor="@color/blue_gray_300"/>
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

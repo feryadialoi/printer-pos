@@ -1,0 +1,34 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.SahabatGemarikanPOSMobile" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/fresh_blue</item>
+        <item name="colorPrimaryVariant">@color/fresh_blue</item>
+        <item name="colorOnPrimary">@color/white</item>
+
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/fresh_orange</item>
+        <item name="colorSecondaryVariant">@color/fresh_orange</item>
+        <item name="colorOnSecondary">@color/white</item>
+
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
+
+        <!-- Customize your theme here. -->
+        <item name="android:homeAsUpIndicator">@drawable/ic_back_arrow_white</item>
+
+        <!-- Custom font.  -->
+        <item name="fontFamily">@font/poppins</item>
+        <item name="android:fontFamily">@font/poppins</item>
+    </style>
+
+    <style name="Theme.SahabatGemarikanPOSMobile.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="Theme.SahabatGemarikanPOSMobile.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="Theme.SahabatGemarikanPOSMobile.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+</resources>
